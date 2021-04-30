@@ -50,7 +50,7 @@ export type Cat = {
     quantity?: number
     colour?: string
     alive: boolean
-    age: number?
+    age?: number
 }
 
 const mycat: Cat = {
